@@ -41,5 +41,69 @@
             </objects>
             <point key="canvasLocation" x="518" y="415"/>
         </scene>
+        <!--Temp1 Blue View Controller-->
+        <scene sceneID="xY2-zC-Bjw">
+            <objects>
+                <viewController storyboardIdentifier="Blue" id="dtb-EG-PE0" customClass="temp1BlueViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8t4-Es-kQj"/>
+                        <viewControllerLayoutGuide type="bottom" id="IqS-C1-6b0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tHe-gb-Oow">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14X-RV-rBv">
+                                <rect key="frame" x="268" y="285" width="64" height="30"/>
+                                <state key="normal" title="Press Me">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonPressed" destination="dtb-EG-PE0" eventType="touchUpInside" id="nVF-pT-GFt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="14X-RV-rBv" firstAttribute="centerY" secondItem="tHe-gb-Oow" secondAttribute="centerY" id="3Xb-7O-90d"/>
+                            <constraint firstItem="14X-RV-rBv" firstAttribute="centerX" secondItem="tHe-gb-Oow" secondAttribute="centerX" id="bt2-Km-a7D"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmn-xM-uAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="415"/>
+        </scene>
+        <!--Temp1 Yellow View Controller-->
+        <scene sceneID="wc4-P6-Hvh">
+            <objects>
+                <viewController storyboardIdentifier="Yellow" id="FDn-g3-ybf" customClass="temp1YellowViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kvk-HY-8vV"/>
+                        <viewControllerLayoutGuide type="bottom" id="XVg-Sw-7fv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cpG-PN-DSo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2m-LT-16S">
+                                <rect key="frame" x="268" y="285" width="64" height="30"/>
+                                <state key="normal" title="Press Me"/>
+                                <connections>
+                                    <action selector="yellowButtonPressed" destination="FDn-g3-ybf" eventType="touchUpInside" id="3cs-FA-x4d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="u2m-LT-16S" firstAttribute="centerY" secondItem="cpG-PN-DSo" secondAttribute="centerY" id="89L-2P-eix"/>
+                            <constraint firstItem="u2m-LT-16S" firstAttribute="centerX" secondItem="cpG-PN-DSo" secondAttribute="centerX" id="b7V-ZV-JGd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="izf-lN-zo4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="415"/>
+        </scene>
     </scenes>
 </document>
